@@ -1,0 +1,142 @@
+*{
+	padding: 0;
+	margin: 0;
+	list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    background: #CED7E6;
+	background-image: url("../image/huaban.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+.top{
+	width: 100%;
+	height: 70px;
+	/*background: #E2EDF8;*/
+	margin-bottom: 10px;
+}
+.fun{
+	width:100%;
+	height:100%;
+	padding-top: 20px;
+	overflow: hidden;
+	box-sizing: border-box;
+}
+.top .fun label{
+	font-size:28px;
+	padding:0 15px;
+	box-sizing:border-box;
+	line-height: 40px;
+	color:#444242;
+	float:left;
+	cursor: pointer;
+}
+label:hover{
+	/*background: #8c9292;*/
+}
+.top p{
+	font-size:14px;
+	color:#444242;
+	float:left;
+	line-height: 40px;
+}
+.top input{
+	display: block;
+	float:left;
+	width:56px;
+	height:16px;
+	margin-top:10px;
+	margin-right:20px;
+}
+.bottom{
+	width: 100%;
+	height: 550px;
+	margin-top: 10px;
+}
+.bottom>.palette{
+	width: 100px;
+	height:auto;
+    border: 2px solid #676767;
+    box-sizing: border-box;
+	/*background-color: #6F6F6F;*/
+    float: left;
+    margin-left: 10px;
+    padding: 10px 5px;
+}
+.palette>label{
+	display: inline-block;
+    width: 32px;
+    height: 32px;
+	border: 1px solid #000;
+	text-align: center;
+	line-height: 33px;
+	margin: 11px 3px;
+	cursor: pointer;
+}
+
+.palette>.hot{
+	background-color: #cdcdcd;
+}
+.palette>.icon-tianchong{
+	display: inline-block;
+    width: 32px;
+    height: 32px;
+	box-sizing: border-box;
+	margin-left: 20px;
+}
+.palette>.icon-miaobian{
+	display: inline-block;
+	width: 32px;
+	height: 32px;
+	box-sizing: border-box;
+	margin-left: 20px;
+}
+.bottom>.palette>hr{
+	margin: 5px;
+}
+.bottom>.palette>input{
+	width: 56px;
+	height: 20px;
+	box-sizing: border-box;
+	margin: 5px 10px;
+
+}
+.bottom>.draw{
+	width: 1000px;
+	height:550px;
+    float: left;
+    margin-left:30px;
+	position: relative;
+}
+.bottom>.draw>.mask{
+	width:100%;
+	height:100%;
+	position: absolute;
+	top:0;
+	left:0;
+	z-index: 10;
+	background-color: rgba(0,0,0,0);
+}
+.bottom>.draw>.rubber{
+	display: none;
+	border:1px solid #000000;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.bottom>.draw>.copy{
+	display: none;
+	border:1px dashed #000000;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.bottom>.draw>canvas{
+	/*background: #ffffff;*/
+    border:1px solid #000000;
+}
+
+

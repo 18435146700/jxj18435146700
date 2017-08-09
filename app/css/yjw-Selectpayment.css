@@ -1,0 +1,233 @@
+.box2{
+	width: 100%;
+	height: auto;
+	background: white;
+}
+.yjw-header2{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-bottom: 0.84rem;
+}
+.yjw-header2 .yjw-center2{
+	width: 93.33%;
+	margin: 0rem auto;
+	height: 0.88rem;
+	overflow: hidden;
+}
+.yjw-center2 a{
+	text-decoration: none;
+}
+.yjw-center2 img{
+	height: 50%;
+    display: block;
+    padding-top: 0.22rem;
+    float:left; 
+}
+.yjw-textpay{
+	width: 86%;
+	float: left;
+	text-align: center;
+	line-height: 0.88rem;
+}
+.yjw-textpay span{
+	font-size: 0.34rem;
+	color: #202020;
+}
+.yjw-section2{
+	width:100%;
+	height:auto;
+	overflow: hidden;
+	position: relative;
+	margin-bottom: 1.82rem;
+}
+.yjw-section2 .yjw-section2-left{
+	width: 77.33%;
+	height: 3.09rem;
+	border-radius: 0.1rem;
+	background: #861EDE;
+	position: absolute;
+	top: 0rem;
+	right: 6.98rem;
+}
+.yjw-section2 .yjw-section2-right{
+	width: 77.33%;
+	height: 3.09rem;
+	border-radius: 0.1rem;
+	background: #EEBF1C;
+	position: absolute;
+	top: 0rem;
+	left: 6.98rem;
+}
+.yjw-section2 .yjw-section2-center{
+	width: 77.33%;
+	height: 3.09rem;
+	border-radius: 0.1rem;
+	background: #1E7EDE;
+	margin: 0rem auto;
+	overflow: hidden;
+	position: relative;
+}
+.yjw-section2 .yjw-section2-center a{
+	display: block;
+	text-decoration: none;
+}
+.yjw-section2-center .yjw-bank2-son{
+    width: 100%;
+	height: auto;
+	padding-top: 0.38rem;
+	padding-left: 0.53rem;
+	box-sizing: border-box;
+}
+.yjw-bank2-son span{
+	font-size: 0.3rem;
+    color: #fff;
+}
+.yjw-section2-center  .yjw-banknumber2{
+    width: 100%;
+    height: auto;
+    padding-top: 0.39rem;
+    padding-left: 0.59rem;
+	box-sizing: border-box;
+}
+.yjw-section2-center  .yjw-banknumber2 span{
+	font-size: 0.3rem;
+    color: #fff;
+}
+.yjw-section2-center .yjw-bankradius2{
+	width:75.9%;
+	height: 148%;
+	position: absolute;
+	top: 0.77rem;
+	left: 3.6rem;
+	float: right;
+	border-radius: 50%;
+	background: #1864B1;
+	z-index: 2;
+}
+.yjw-section2-center .yjw-bankradius2>span{
+	font-size: 0.3rem;
+    color: #fff;
+    position: absolute;
+    top: 1.88rem;
+    left: 1.22rem;
+}
+/* 指纹 */
+.yjw-fingerprint{
+	width: 100%;
+	height: auto;
+}
+.yjw-fingerprint-son{
+	width: 17.33%;
+	height: 1.3rem;
+	margin: 0rem auto;
+	margin-bottom: 0.46rem;
+}
+.yjw-fingerprint img{
+    height: 100%;
+    display: block;
+}
+.yjw-fingerprint-text{
+	width: 15.8666%;
+	height: auto;
+    margin: 0rem auto;
+    margin-bottom: 0.14rem;
+}
+.yjw-fingerprint-text b{
+	font-size: 0.28rem;
+	color: #1E7EDE;
+	
+}
+.yjw-fingerprint-span{
+	width: 100%;
+	height: auto;
+	margin-bottom: 0.03rem;
+}
+.yjw-fingerprint-span span{
+    width: 100%;
+	font-size: 0.23rem;
+	color: #636363;
+	display: block;
+	text-align: center;
+	font-weight: 700;
+}
+.yjw-fingerprint .yjw-Line-top{
+	width: 7%;
+    height:0.02rem; 
+	margin: 0rem auto;
+	border-top: 0.01rem solid #BFBFBF;
+	position: relative;
+}
+.yjw-Line-top .yjw-leftradius{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #BFBFBF;
+    transform: translate(-0.03rem, -0.03rem);
+}
+.yjw-Line-top .yjw-rightradius{
+	width: 0.06rem;
+	height: 0.06rem;
+	border-radius: 50%;
+	background: #BFBFBF;
+    transform: translate(0.50rem, -0.09rem);
+}
+.yjw-Line-top .yjw-fingerprint-engish{
+	width: 100%;
+	height: auto;
+}
+.yjw-fingerprint-engish span{
+	width: 100%;
+	font-size: 0.20rem;
+	color: #BABABA;
+	display: block;
+	text-align: center;
+}
+.yjw-fingerprint .yjw-RMB{
+	width: 100%;
+	height: auto;
+} 
+.yjw-RMB span{
+	width: 100%;
+	height: 0.35rem;
+	font-size: 0.36rem;
+	font-weight: 700;
+	color: #1E7EDE;
+	display: block;
+	text-align: center;
+	margin-top: 0.27rem;
+}
+.yjw-RMB b{
+	margin-top: 0.04rem;
+	font-size: 0.20rem;
+    color: #1E7EDE;
+    display: block;
+	text-align: center;
+}
+.yjw-fingerprint .yjw-Password{
+	width: 100%;
+	height: auto;
+	margin-top: 1.06rem;
+}
+.yjw-Password a{
+	text-decoration: none;
+}
+.yjw-Password span{
+	width: 100%;
+	font-size: 0.28rem;
+	color:black;
+	font-weight: 700;
+	display: block;
+	text-align: center;
+}
+.yjw-Password-box{
+	width: 18.26%;
+	height: 0.05rem;
+	margin: 0rem auto;
+	margin-top: 0.04rem;
+	border-top: 0.01rem solid #BABABA;
+}
+.yjw-footertow{
+	width: 100%;
+	height: 1.07rem;
+}

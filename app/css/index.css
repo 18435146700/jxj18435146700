@@ -1,0 +1,470 @@
+/*header*/
+body,html{
+	width: 100%;
+	height: 100%;
+}
+body{
+	overflow: scroll;
+	padding-top: 0.87rem;
+	box-sizing: border-box;
+	background: #ffffff;
+}
+html{
+	overflow: hidden;
+    position: relative;
+} 
+
+.hqs-header{
+	width: 100%;
+	height: 0.88rem;
+	background: #3B74E8;
+	position: absolute;
+	top:0;
+	left: 0;
+	z-index: 5;
+}
+.hqs-header-xq{
+    width: 1rem;
+	margin: 0 auto;
+	padding-top: 0.23rem;position: relative;
+}
+.hqs-header-dian{
+	width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 50%;
+	background: white;
+	float: left;
+    margin-top: 0.1rem;
+}
+.hqs-header span{
+	font-size: 0.24rem;
+	color: black;
+	text-decoration: none;
+    padding-left: 0.22rem;
+    color: white;
+}
+.hqs-header b{
+	font-size: 0.18rem;
+	padding-left: 3.05rem;
+	color: white;
+}
+.hqs-header-dian-r{
+    float: right;
+    width: 0.08rem;
+	height: 0.08rem;
+	border-radius: 50%;
+	background: white;
+    margin-top: 0.1rem;
+}
+.hqs-header a img{
+	width: 0.4rem;
+	height: 0.4rem;
+	/*border-radius: 50%;
+	background: white;*/
+	position: absolute;
+    top: 0.26rem;
+    right: 0.24rem;
+}
+/*.hqs-header a img{
+	padding: 0.06rem 0.06rem;
+	width: 0.29rem;
+	height: 0.29rem;	
+}*/
+  /*banner*/
+.hqs-banner img{
+	width: 100%;
+	height: 3.7rem;
+}
+  /*热门主播*/
+ .hqs-rmzb{
+ 	width: 93.6%;
+ 	margin: 0 auto;
+ 	margin-top: 0.35rem;
+ }
+ .hqs-rmzb h2{
+ 	font-size: 0.3rem;	
+ }
+ .hqs-rmzb span{
+ 	font-size: 0.22rem;
+ 	color: #3B74E8;
+ }
+ .hqs-rmzb b{
+ 	font-size: 0.22rem;
+ 	color: #979797;
+ }
+.hqs-jx{
+	width: 93.6%;
+	height: 1.75rem;
+	margin: 0 auto;
+	margin-top: 0.12rem;
+	box-shadow: 0.01rem 0.01rem 0.1rem 0.03rem #f2f2f2;
+	position: relative;
+}
+.hqs-zi{
+	width: 27.5%;
+	height: 0.53rem;
+	margin-left: 0.32rem;
+	font-size: 0.24rem;
+	line-height: 0.53rem;
+	border-bottom: 2px solid #C6C6C6;
+}
+.hqs-ld{
+	width: 0.04rem;
+	height: 0.04rem;
+	border-radius: 50%;
+	background: #4078E9;
+	position: absolute;
+	top:0.52rem;
+	left: 2.27rem;
+}
+.hqs-hd{
+	width: 0.04rem;
+	height: 0.04rem;
+	border-radius: 50%;
+	background: #4078E9;
+	position: absolute;
+	top:0.52rem;
+	left: 2.34rem;
+	background: #FF1F92;
+}
+.hqs-lt {
+	width: 0.64rem;
+	height: 0.64rem;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0.29rem;
+    left: 0.34rem;
+     box-shadow: 0.01rem 0.01rem 0.1rem 0.03rem #f2f2f2;	
+}
+.hqs-lt img{
+	width: 0.64rem;
+	height: 0.64rem;
+	border-radius: 50%;	
+}
+.hqs-zj{
+	margin-left: 1.2rem;
+    margin-top: 0.29rem;
+    position: relative;
+}
+.hqs-zj span{
+	font-size: 0.24rem;
+	color: #949494;
+}
+.hqs-zj img{
+	width: 1.17rem;
+	height: 0.2rem;
+}
+.hqs-hy{
+	width:0.3rem;
+	height: 0.3rem;
+	background: #FF0A89;
+	border-radius: 50%;
+	margin-top: 0.1rem;
+}
+.hqs-hy img{
+	padding-left: 0.06rem;
+	padding-top: 0.05rem;
+	width: 0.19rem;
+	height: 0.18rem; 	
+	transition: all 0.5s ;
+}
+
+.hqs-hy img:hover{
+   opacity: 1;
+   transform: scale(1.2);
+}
+.hqs-sz{
+	font-size: 0.18rem;
+	position: absolute;
+	bottom: 0.02rem;
+	left: 0.4rem;
+	color: #ACACAC;
+}
+.hqs-hyr{
+	width:0.3rem;
+	height: 0.3rem;
+	background: #3B74E8;
+	border-radius: 50%;
+	position: absolute;
+    bottom: 0;
+    left: 1.15rem;
+}
+.hqs-hyr img{
+	padding-left: 0.06rem;
+	padding-top: 0.08rem;
+	width: 0.19rem;
+	height: 0.18rem;
+    transition: all 0.5s;
+}
+.hqs-hyr img:hover{
+	opacity: 1;
+	transform: scale(1.2);
+}
+
+.hqs-szr{
+	font-size: 0.18rem;
+	position: absolute;
+	bottom: 0.02rem;
+	left: 1.55rem;
+	color: #ACACAC;
+}
+.hqs-rt{
+	width: 1.08rem;
+	height: 1.08rem;
+	position: absolute;
+    right: 0.35rem;
+    bottom: 0.14rem;
+    border-radius: 50%;
+}
+.hqs-rt img{
+	width: 1.08rem;
+	height: 1.08rem;
+}
+
+/*第一层*/
+.hqs-zb{
+	margin: 0.12rem auto 0;
+	width: 93.6%;
+	height: 4.81rem;
+	box-sizing: border-box;
+	
+}
+.hqs-zbl{
+	width: 3.39rem;
+	height: 4.81rem;
+	margin-right: 0.24rem;
+	background-image:url(../img/hqs-9.png);
+	background-size:contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	float: left;
+	box-shadow: 0.01rem 0.01rem 0.1rem 0.03rem #f2f2f2;
+}
+.hqs-zb .hqs-zbl:nth-child(2){
+	margin: 0 0;
+}
+.hqs-zblt{
+	width: 3.19rem;
+	height: 2.9rem;
+	background: yellow;
+	margin: 0.1rem 0.1rem 0 0.1rem;
+}
+.hqs-zblt img{
+	width: 3.19rem;
+	height: 2.9rem;
+}
+.hqs-zbz{
+	width: 3.19rem;
+	height: 0.6rem;
+    margin: 0.15rem 0.1rem 0 0.1rem;
+}
+.hqs-zbxx{
+	width: 2.74rem;
+	height: 0.28rem;
+	border-bottom: 0.02rem solid #636363;
+	margin: 0 auto;
+	position: relative;
+}
+.hqs-zbdl{
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius: 50%;
+	background: #535353;
+	position: absolute;
+	bottom: -0.03rem;
+	left: 0;
+}
+.hqs-zbdr{
+	width: 0.05rem;
+	height: 0.05rem;
+	border-radius: 50%;
+	background: #535353;
+	position: absolute;
+	bottom: -0.03rem;
+	right: 0;
+}
+.hqs-zbdz{
+	width: 2.74rem;
+	height: 0.38rem;
+	margin: 0.18rem auto;
+	position: relative;
+}
+.hqs-zbz h2{
+	font-size: 0.22rem;	
+}
+.hqs-zbz span{
+	font-size: 0.22rem;
+	color: #ACACAC;
+}
+.hqs-xr{
+	width: 1.06rem;
+	height: 0.3rem;
+	float: right;
+	position: relative;
+}
+.hqs-xr img{
+	width: 0.22rem;
+	height: 0.19rem;
+	margin-top: 0.07rem;
+	transition: all 0.5s;
+}
+.hqs-xr img:hover{
+	opacity: 1;
+	transform: scale(1.2);
+}
+.hqs-xr span{
+	font-size: 0.22rem;
+	color: #ACACAC;
+	position: absolute;
+    right: 0.14rem;
+}
+.hqs-zbfz{
+	width: 1.37rem;
+	height: 0.38rem;
+	position: relative;
+}
+.hqs-zbfz1{
+	width:0.3rem;
+	height: 0.3rem;
+	background: #FF0A89;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+}
+.hqs-zbfz1 img{
+	padding-left: 0.06rem;
+	padding-top: 0.05rem;
+	width: 0.19rem;
+	height: 0.18rem;
+	transition: all 0.5s;	
+}
+.hqs-zbfz1 img:hover{
+	opacity: 1;
+	transform: scale(1.2);
+}
+
+.hqs-zbfzi{
+	font-size: 0.22rem;
+	position: absolute;
+	bottom: 0;
+	left: 0.4rem;
+	color: #ACACAC;
+}
+.hqs-zbfz12{
+	width: 1.37rem;
+	height: 0.38rem;
+	position: absolute;
+    right: 0;
+    top: 0;
+}
+.hqs-zbfz2{
+	width:0.3rem;
+	height: 0.3rem;
+	background: #3B74E8;
+	border-radius: 50%;
+	position: absolute;
+	bottom: 0;
+}
+.hqs-zbfz2 img{
+	padding-left: 0.06rem;
+	padding-top: 0.07rem;
+	width: 0.19rem;
+	height: 0.18rem;
+	transition: all 0.5s;	
+}
+.hqs-zbfz2 img:hover{
+	opacity: 1;
+	transform: scale(1.2);
+}
+.hqs-zbfzi1{
+	font-size: 0.22rem;
+	position: absolute;
+	bottom: 0;
+	left: 0.4rem;
+	color: #ACACAC;
+}
+/* 底部*/
+.hqs-db{
+	width: 100%;
+	height: 1rem;
+	background: #363636;
+	margin-top: 0.35rem;
+}
+.hqs-db ul{
+	width: 93.6%;
+	height: 1rem;
+	margin: 0 auto;
+	position: relative;
+}
+.hqs-db ul>li{
+	width: 33.33%;
+	height: 1rem;
+	float: left;
+}
+.hqs-db ul>li img{
+	width: 0.4rem;
+	height: 0.4rem;
+	margin: 0.15rem auto 0;
+	display: block;
+}
+.hqs-db ul>li p{
+	font-size: 0.24rem;
+	color: white;
+
+	text-align: center;
+}
+
+.hqs-dbtan{
+	width: 1.6rem;
+	height: 1.08rem;
+	background: #3B74E8;
+	border-radius: 0 0 0.1rem 0.1rem;
+	position: absolute;
+	bottom: 0;
+	left: 0.38rem;
+	opacity: 0;
+	transition: all .5s;
+	
+}
+.hqs-db ul>li a:hover .hqs-dbtan{
+	opacity: 1;
+}
+.hqs-db ul>li a:hover .hqs-dbtan1{
+	opacity: 1;
+}
+.hqs-db ul>li a:hover .hqs-dbtan2{
+	opacity: 1;
+}
+.hqs-dbtan1{
+	width: 1.6rem;
+	height: 1.08rem;
+	background: #3B74E8;
+	border-radius: 0 0 0.1rem 0.1rem;
+	position: absolute;
+	bottom: 0;
+	left: 38.33%;
+	opacity: 0;
+	transition: all .5s;
+}
+
+
+.hqs-dbtan2{
+	width: 1.6rem;
+	height: 1.08rem;
+	background:#3B74E8;
+	border-radius: 0 0 0.1rem 0.1rem;
+	position: absolute;
+	bottom: 0;
+	left: 71.66%;
+	opacity: 0;
+	transition: all .5s;
+}
+
+.hqs-xh{
+	width: 90%;
+	height: 0.06rem;
+	background: white;
+	position: absolute;
+    bottom: 0;
+    left: 0.08rem;
+}

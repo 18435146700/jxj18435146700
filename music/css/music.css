@@ -1,0 +1,181 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+}
+html,body{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+body{
+    background-image: url('../images/m2.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+.top{
+    width: 600px;
+    height: auto;
+    margin:90px auto;
+    font-size: 22px;
+    color:#fff;
+    text-shadow: 1px 1px 2px #000000;
+    text-align: center;
+}
+.top>song,top>author{
+    font-size: 26px;
+}
+.top>.lyrics{
+    height: 400px;
+    overflow: hidden;
+}
+.top>.lyrics>li{
+    padding: 10px;
+}
+.top>.lyrics>.hot{
+    color:#ecd55a;
+}
+.bottom{
+    width: 100%;
+    height:65px;
+    background: #e49f75;
+    background-color: rgba(196, 133, 90, 0.84);
+    position: absolute;
+    bottom: 0;
+    line-height: 65px;
+}
+.bottom>.content{
+    width: 1300px;
+    height: 100%;
+    margin: auto;
+}
+.left{
+    width: 200px;
+    height:100% ;
+    float:left;
+    position: relative;
+}
+.icon-iconfontcolor98{
+    position: absolute;
+    top:3px;
+    left:0;
+ }
+.icon-bofang{
+    position: absolute;
+    top: 4px;
+    left: 59px;
+}
+.icon-weibiaoti1{
+    position: absolute;
+    top:4px;
+    left: 59px;
+}
+.icon-iconfontcolor97{
+    position: absolute;
+    top: 4px;
+    left: 120px;
+}
+.middle{
+    width: 600px;
+    height:100% ;
+    float:left;
+    /*margin:0 25px;*/
+}
+.middle>img{
+    float:left;
+    border-radius: 50%;
+}
+.middle>.progress{
+    float:left;
+    width: 500px;
+}
+.progress>.pTop{
+    height: 32.5px;
+    /*background-color: red;*/
+    line-height: 32.5px;
+    padding-left:20px;
+}
+.pTop>.info{
+    float:left;
+    color:#fff;
+}
+.pTop>.time{
+    color:#fff;
+    float:right;
+}
+.progress>.pBottom{
+    height: 32.5px;
+    /*background-color: green;*/
+    line-height: 32.5px;
+    padding: 12px 5px;
+}
+.progress>.pBottom>.playProgress{
+    display: block;
+    width:480px;
+    height: 5px;
+    border-radius: 3px;
+    background-color: #cdcdcd;
+    position: relative;
+}
+.progress>.pBottom>.playProgress>.showProgress{
+    display: block;
+    width:0;
+    height: 5px;
+    border-radius: 3px;
+    background-color: yellow;
+    position: absolute;
+    left:0;
+    top:0;
+}
+.right{
+    width: 500px;
+    height:100% ;
+    float:left;
+    position: relative;
+}
+.right>.iconfont{
+    font-size: 30px;
+    padding-left: 20px;
+}
+.right .hei{
+    width:30px;
+    height: 120px;
+    background-color: rgba(0,0,0,0.5);
+    position: absolute;
+    top:-120px;
+    right:258px;
+    display: none;
+}
+.right .san{
+    width: 0px;
+    border-top: 10px solid rgba(0,0,0,0.4);
+    border-left: 6px solid rgba(0,0,0,0);
+    border-right:6px solid rgba(0,0,0,0);
+    position: absolute;
+    bottom: -10px;
+    left:10px;
+    z-index:11;
+}
+.right .volume{
+    width:5px;
+    height: 100px;
+    background-color: #cdcdcd;
+    position: absolute;
+    top:12px;
+    right:12px;
+}
+.right .volumes{
+     width:5px;
+     height: 100px;
+     background-color: #fff;
+ }
+.right .volumey{
+    width:15px;
+    height: 15px;
+    border-radius: 50%;
+    background-color: #fff;
+    position: absolute;
+    right:-5px;
+    bottom: 0;
+}

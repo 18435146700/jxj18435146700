@@ -1,0 +1,112 @@
+*{
+	margin: 0rem;
+	padding: 0rem;
+	list-style: none;
+	text-decoration: none;
+}
+
+.lmc-splash-1{
+	width: 100%;
+	height: auto;
+	background: white;
+	border-top: 0.01rem solid white;
+	border-bottom: 0.01rem solid white;
+	border: 0.15rem solid #20496A;
+	box-sizing: border-box;
+	position: relative;
+
+}
+.lmc-splash-2{
+	margin-left: 0.14rem;
+	margin-top: 0.12rem;
+	margin-right: 0.14rem;
+	margin-bottom: 0.12rem;
+}
+.lmc-splash-2 img{
+	width: 100%;
+	height: 100%;
+    
+}
+.lmc-splash-1 .lmc-splash-3 img{
+	position: absolute;
+	top: 0.71rem;
+	margin: 0 auto;
+	left: 1.57rem;
+	right: 1.56rem;
+	width: 54%;
+}
+.lmc-splash-1 .lmc-splash-3 .lmc-splash-4{
+    position: absolute;
+	top: 0.53rem;
+	margin: 0 auto;
+	left: 1.57rem;
+	right: 1.56rem;
+	width: 25%;
+	
+}
+.lmc-splash-1 .lmc-splash-3 span{
+	font-size: 0.19rem;
+	color: white;
+	position: absolute;
+	top: 0.59rem;
+	left: 3.2rem;
+	
+
+}
+.lmc-splash-1 .lmc-splash-5{
+	width: 3.65rem;
+	height: 0.9rem;
+	
+	position: absolute;
+	top: 1.88rem;
+	left: 1.86rem;
+
+}
+.lmc-splash-1 .lmc-splash-5 .lmc-splash-6{
+	font-size: 0.75rem;
+	color: #5E8FF3;
+	font-weight: 800;
+}
+.lmc-splash-1 .lmc-splash-7{
+	width: 100%;
+   position: absolute;
+   top: 3.9rem;
+   text-align: center;
+}
+
+.lmc-splash-1 .lmc-splash-7 .lmc-splash-8{
+	width: 58%;
+}
+.lmc-splash-1 .lmc-splash-9{
+	width: 100%;
+	position: absolute;
+	bottom: 0.8rem;
+	left: 1.44rem;
+
+}
+.lmc-splash-1 .lmc-splash-9 .lmc-splash-10{
+	width: 60.4%;
+}
+.lmc-splash-1 .lmc-splash-11{
+	width: 20%;
+	height: 0.55rem;
+	
+	
+	position: absolute;
+	bottom: 1.8rem;
+	left: 2.72rem;
+}
+.lmc-splash-1 .lmc-splash-11 .lmc-splash-12{
+	
+	background: #1B3C50;
+	width: 0.17rem;
+	height: 0.17rem;
+    transform:rotateZ(45deg);
+    float: left;
+    margin-top: 0.29rem;
+    margin-left: 0.3rem;
+    box-sizing: border-box;
+    
+   
+
+}

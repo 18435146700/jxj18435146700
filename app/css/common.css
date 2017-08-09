@@ -1,0 +1,32 @@
+﻿*{
+    margin: 0rem;
+    padding: 0rem;
+    list-style: none;
+    text-decoration: none;
+    font-family: "苹方","Helvetica";
+    -webkit-text-size-adjust:100%;
+    -webkit-user-select:none;
+  	 text-size-adjust: 100%;
+     font-size: 0.12rem;
+}
+fieldset, img, input, button { 			/*fieldset组合表单中的相关元素*/
+    border: none;
+    outline-style: none;
+}
+input {
+    padding-top: 0rem;
+    padding-bottom: 0rem;
+}
+body{
+     	    background: #F5F6FA;
+       		font-family:"Helvetica";
+     		overflow-scrolling:touch;
+     	}
+a,input,form,button{
+     		 -webkit-tap-highlight-color:rgba(0,0,0,0);
+     		  -webkit-appearance: none;
+     	}
+img {
+    border: 0rem;
+    vertical-align: middle;
+}

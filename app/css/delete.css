@@ -1,0 +1,194 @@
+*{
+	padding: 0px;
+	margin: 0px;
+	list-style: none;
+	font-family: "微软雅黑","苹方";
+}
+.xy-beijing{
+	background-image:url('../img/xy-beijing.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+	width: 100%;
+	height:10rem;
+	position: relative;
+}
+.xy-beijing img{
+	width: 100%;
+}
+.xy-head{
+	width: 100%;
+	height: 1rem;
+	background: #3B74E8;
+	z-index: 999;
+	position: fixed;
+    top: 0rem;
+    text-align: center;
+    line-height: 1rem;
+}
+.xy-head span{
+	font-size: 0.3rem;
+	color: white;
+}
+.xy-headleft{
+	position: fixed;
+    
+    left: 0.24rem;
+}
+.xy-headleft img{
+	width: 0.6rem;
+	height: 0.45rem;
+}
+.xy-content{
+	width: 7.04rem;
+	height: 0.88rem;
+	background: white;
+	border-radius: 0.2rem;
+	position: absolute;
+	top: 1.28rem;
+	left: 0.17rem;
+	overflow: hidden;
+	position: relative;
+	
+
+}
+.xy-contentleft{
+	width: 0.45rem;
+	height: 0.45rem;
+	position: absolute;
+	left: 0.15rem;
+	top: 0.23rem;
+
+}
+.xy-contentcenter{
+width: auto;
+height: auto;
+position: absolute;
+left: 0.69rem;
+top: 0.18rem;
+}
+.xy-contentcenter h2{
+	width: 1.4rem;
+	font-size: 0.22rem;
+	color: #c1c1c1;
+	border-bottom: 0.01rem dashed #c1c1c1;
+}
+.xy-contentcenter p{
+	font-size: 0.20rem;
+	color: #c1c1c1;
+}
+.xy-contentright{
+	width: 0.45rem;
+	height: 0.45rem;
+	position: absolute;
+	right:0.18rem;
+	top: 0.25rem; 
+}
+
+
+.xy-content1{
+	width: 7.04rem;
+	height: 0.88rem;
+	background: white;
+	border-radius: 0.2rem;
+	position: absolute;
+	top: 1.39rem;
+	left: 0.17rem;
+	overflow: hidden;
+	position: relative;
+	
+
+}
+.xy-contentleft1{
+	width: 0.45rem;
+	height: 0.45rem;
+	position: absolute;
+	left: 0.15rem;
+	top: 0.23rem;
+
+}
+.xy-contentcenter1{
+width: auto;
+height: auto;
+position: absolute;
+left: 0.69rem;
+top: 0.18rem;
+}
+.xy-contentcenter1 h2{
+	width: 1.4rem;
+	font-size: 0.22rem;
+	color: #c1c1c1;
+	border-bottom: 0.01rem dashed #c1c1c1;
+}
+.xy-contentcenter1 p{
+	font-size: 0.20rem;
+	color: #c1c1c1;
+}
+.xy-contentright1{
+	width: 0.45rem;
+	height: 0.45rem;
+	position: absolute;
+	right:0.18rem;
+	top: 0.25rem; 
+}
+
+
+.xy-content2{
+	width: 7.04rem;
+	height: 0.88rem;
+	background: white;
+	border-radius: 0.2rem;
+	position: absolute;
+	top: 1.5rem;
+	left: 0.17rem;
+	overflow: hidden;
+	position: relative;
+	
+
+}
+.xy-contentleft2{
+	width: 0.45rem;
+	height: 0.45rem;
+	position: absolute;
+	left: 0.15rem;
+	top: 0.23rem;
+
+}
+.xy-contentcenter2{
+width: auto;
+height: auto;
+position: absolute;
+left: 0.69rem;
+top: 0.18rem;
+}
+.xy-contentcenter2 h2{
+	width: 1.4rem;
+	font-size: 0.22rem;
+	color: #c1c1c1;
+	border-bottom: 0.01rem dashed #c1c1c1;
+}
+.xy-contentcenter2 p{
+	font-size: 0.20rem;
+	color: #c1c1c1;
+}
+.xy-contentright2{
+	width: 0.45rem;
+	height: 0.45rem;
+	position: absolute;
+	right:0.18rem;
+	top: 0.25rem; 
+}
+
+
+.foot{
+	width: 100%;
+	height: 1.13rem;
+	background: #E43131;
+	line-height: 1.13rem;
+	text-align: center;
+	position: absolute;
+	bottom: 0rem;
+}
+.foot span{
+	font-size: 0.34rem;
+	color: white;
+}

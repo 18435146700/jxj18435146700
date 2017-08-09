@@ -1,0 +1,202 @@
+*{
+	margin: 0rem;
+	padding: 0rem;
+	list-style: none;
+	text-decoration: none;
+}
+body{
+	background: #EDEDED;
+}
+.lmc-add{
+	width: 100%;
+	height: 0.9rem;
+	background: #3B74E8;
+	overflow: hidden;
+	text-align: center;
+	line-height: 0.9rem;
+}
+.lmc-add-left{
+	
+	
+	float: left;
+	box-sizing: border-box;
+	padding-left: 0.26rem;
+}
+
+.lmc-add-left a img{
+	width: 0.47rem;
+	height: 0.47rem;
+}
+.lmc-add  span{  
+    font-size: 0.32rem;
+    color: white;
+    box-sizing: border-box;
+	padding-right: 0.5rem;
+    
+}
+
+.lmc-klx{
+	width: 100%;
+	height: 0.88rem;
+	background: white;
+	margin-top: 0.24rem;
+	overflow: hidden;
+}
+.lmc-klx .lmc-klx-1{
+	float: left;
+}
+.lmc-klx .lmc-klx-1 .lmc-klx-2 {
+    margin-left: 0.62rem;
+    font-size: 0.28rem;
+    line-height: 0.88rem;
+    float: left;
+    
+}
+.lmc-klx .lmc-klx-1 .lmc-klx-3 {
+    float: left;
+    font-size: 0.28rem;
+    line-height: 0.88rem;
+    
+}
+.lmc-klx #srk{
+	width: 5.9rem;
+	height: 0.88rem;
+	font-size: 0.28rem;
+	float: left;
+}
+.lmc-xm{
+	width: 100%;
+	height: auto;
+	background: white;
+	margin-top: 0.24rem;
+	overflow: hidden;
+}
+.lmc-xm .lmc-xm-1{
+	width: 100%;
+	height: 0.87rem;
+	border-bottom: 0.01rem solid #EDEDED;
+	float: left;
+}
+.lmc-xm .lmc-xm-1 .lmc-xm-2{
+	 margin-left: 0.62rem;
+    font-size: 0.28rem;
+    line-height: 0.87rem;
+    float: left;
+}
+.lmc-xm .lmc-xm-1 .lmc-xm-3{
+	float: left;
+    font-size: 0.28rem;
+    line-height: 0.87rem;
+}
+.lmc-xm #srk-1{
+	width: 5.9rem;
+	height: 0.87rem;
+	font-size: 0.28rem;
+	float: left;
+}
+.lmc-xm-4{
+	width: 100%;
+	height: 0.88rem;
+}
+.lmc-xm .lmc-xm-4 .lmc-xm-5{
+	 margin-left: 0.62rem;
+    font-size: 0.28rem;
+    line-height: 0.88rem;
+    float: left;
+}
+.lmc-xm .lmc-xm-4 .lmc-xm-6{
+	float: left;
+    font-size: 0.28rem;
+    line-height: 0.87rem;
+}
+.lmc-xm #srk-2{
+	width: 5.9rem;
+	height: 0.87rem;
+	font-size: 0.28rem;
+	float: left;
+}
+.lmc-sjh{
+	width: 100%;
+	height: 0.88rem;
+	background: white;
+    margin-top: 0.24rem;
+}
+.lmc-sjh .lmc-sjh-1{
+	margin-left: 0.62rem;
+    font-size: 0.28rem;
+    line-height: 0.88rem;
+    float: left;
+}
+.lmc-sjh .lmc-sjh-2{
+	float: left;
+    font-size: 0.28rem;
+    line-height: 0.87rem;
+}
+.lmc-sjh #srk-3{
+	width: 5.9rem;
+	height: 0.87rem;
+	font-size: 0.28rem;
+	float: left;
+}
+.lmc-fuwu{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+	margin-top: 0.34rem;
+	box-sizing: border-box;
+}
+.lmc-fuwu-1{
+	width: 0.17rem;
+	height: 0.17rem;
+	border: 0.01rem solid #C5C5C5;
+	border-radius: 0.05rem;
+	float: left;
+	margin-left: 0.28rem;
+	margin-right: 0.13rem;
+}
+.lmc-fuwu .lmc-fuwu-2{
+	height: 0.3rem;
+	margin-top: -0.05rem;
+	
+}
+.lmc-fuwu-2 a{
+	
+	font-size: 0.2rem;
+}
+.lmc-fuwu-2 a span{
+	font-size: 0.22rem;
+	color: #9C9C9C;
+}
+
+.lmc-fuwu .lmc-fuwu-3 span{
+	font-size: 0.22rem;
+	color: #3B74E8;
+}
+
+.lmc-xyb{
+	width: 87%;
+	height: 0.9rem;
+	background: #CCCCCC;
+	border-radius: 0.1rem;
+	margin: 0 auto;
+	margin-top: 0.8rem;
+	text-align: center;
+}
+.lmc-xyb  span{
+	font-size: 0.32rem;
+	color: black;
+	line-height: 0.9rem;
+	
+}
+.lmc-kongbai{
+	width: 100%;
+	height: 5.49rem;
+}
+
+
+
+
+
+
+
+

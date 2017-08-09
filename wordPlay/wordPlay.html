@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/wordPlay.css">
+        <title>打字游戏</title>
+        <script src="js/common.js"></script>
+        <script src="js/wordPlay.js"></script>
+    </head>
+    <body> 
+        <!-- <div class="yun"> 
+        	
+        </div>-->
+        <div class="box">
+            <div class="left">
+                <img src="image/wa_11.png" alt="">
+                <div class="gqm">
+                    <span>1</span>
+                </div>
+            </div>
+            <div class="mil">
+                <img src="image/wa_03.png" alt="">
+                <div class="score">
+                    <span>0</span>
+                </div>
+            </div>
+        	<div class="right">
+                <img src="image/wa_06.png" alt="">
+                <div class="sm">
+                    <span>10<span class="sm1"></span></span>
+                </div>
+            </div>
+            <div class="start">开始</div>
+            <div class="zt">暂停</div>
+        </div>
+
+    </body>
+</html>
+<script src="js/wordPlay.js"></script>
+<script>
+    window.onload=function(){
+        let start=document.querySelector('.start');
+        let zt=document.querySelector('.zt');
+        start.onclick=function(){
+            let game=new Game();
+            game.start();
+        }
+        zt.onclick=function(){
+            alert('主任，赶紧回来哦~');
+        }
+    }
+
+</script>

@@ -1,0 +1,108 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+body{
+    /*background-color: #014DA1;*/
+    width: 100%;
+    height:662px;
+    background-image: url('../image/w1.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+     background-position: center;
+}
+.box{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+.box img{
+    width: 60px;
+    height: 50px;
+}
+.box>.left {
+    padding-left: 150px;
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.left>.gqm{
+    display: inline-block;
+    width: 50px;
+    height:100%;
+    font-size:28px ;
+    font-family: 'FZYaoti';
+}
+.box>.mil {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.mil>.score{
+    display: inline-block;
+    width: 50px;
+    height:100%;
+    font-size:28px ;
+    font-family: 'FZYaoti';
+}
+.box>.right {
+    float: left;
+    width: 25%;
+    height: 100%;
+}
+.right>.sm{
+    display: inline-block;
+    width: 50px;
+    height:100%;
+    font-size:28px ;
+    font-family: 'FZYaoti';
+}
+.zt{
+    float: right;
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    background-image: url("../image/wzt.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.start{
+    width: 70px;
+    height: 70px;
+    margin-right: 50px;
+    text-align: center;
+    line-height: 70px;
+    font-weight: bold;
+    background-image: url("../image/wzt.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    bottom:70px;
+    right:-40px;
+}
+.yun{
+    width: 1000px;
+    height: 80px;
+    background-color: #00c0a5;
+    position: absolute;
+    left: 50px;
+    margin-left: -500px;
+    z-index: 3333;
+    animation: yun 2s ease infinite alternate
+    /*名称  时间 方式 */
+}
+@keyframs yun{
+    from{
+        transform: translate(-20px);
+    }
+    to{
+        transform: translate(20px);
+    }
+}
